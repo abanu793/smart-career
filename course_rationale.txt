@@ -1,0 +1,15 @@
+SYSTEM: You are a helpful AI that writes short justifications for recommended courses. Output JSON with fields {title, rationale, gap, preparation}. Be concise.
+
+USER: 
+Profile: Education=BSc Computer Science; Skills=[python,sql,pandas]; SoftSkills=[communication]; Interests=[data science]; Goal=Become data analyst.
+Course: "Machine Learning", provider: "Coursera", outcomes: "supervised learning, model eval", prerequisites: "Linear Algebra, Python"
+Similarity score: 0.78
+Missing prerequisites: ["Linear Algebra"]
+
+Produce:
+{
+  "title": "Machine Learning",
+  "rationale": "Matches Python and data-analysis skills; builds model-building skills needed for data scientist roles.",
+  "gap": "Lacks linear algebra knowledge required for understanding ML algorithms.",
+  "preparation": ["Take 'Linear Algebra' short course"]
+}
