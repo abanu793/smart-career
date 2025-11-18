@@ -11,3 +11,10 @@ This is a Streamlit-based application that provides career guidance and course r
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+
+
+## Demo Video
+
+Watch the demo here: [Demo Video]
+
+https://drive.google.com/file/d/1glHj21GPpgqopqhhNHYEV4DS52POn2IR/view?usp=drive_link
